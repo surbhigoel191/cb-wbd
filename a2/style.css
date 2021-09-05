@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+li{
+    border-bottom: 1px solid #989EA4;
+    padding: 5px;
+    padding-left: 10vw;
+    font: 18px/21px Helvetica, Arial, sans-serif;
+}
+ul{
+    list-style-type:none;
+}
+img{
+    width: 50px;
+    margin-bottom: -10px;
+}
+#main{
+    background-color: #EF89FF;
+}
+#container {
+    padding-left: 30px;
+    border: 2px solid white;
+    background-color: black;
+    color: #FFF;
+    font-size: 2.5rem;
+    position: sticky;
+    top: 10px;
+}
+#phone {
+    display: inline-block;
+    position: static;
+    margin-left: 50vw;
+}
+#name {
+    display: inline-block;
+    position: absolute;
+    font-weight: 1000px;
+}

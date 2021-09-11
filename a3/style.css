@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+button {
+  color: red;
+  border: 1px solid red;
+  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30vh;
+  background-color: transparent;
+  font-size: larger;
+  height: 1.5em;
+  width: 8em;
+  transition: all 1s 0s;
+}
+button:hover {
+  color: white;
+  border: 1px solid yellow;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 8px 2px yellow;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1554176259-aa961fc32671?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBkYXJrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

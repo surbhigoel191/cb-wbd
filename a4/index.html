@@ -3,16 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button</title>
+    <meta http-equiv="" content="IE=edge">
+    <title>ElectroVilla</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <img>
-    <h1>Assignment-3</h1>
-    <button>Hover Me</button>
+    <nav>
+        <a href="">
+            <h2>ElectroVilla</h2>
+        </a>
+        <ul>
+            <li><a href="">
+                    <h4>Home</h4>
+                </a></li>
+            <li><a href="">
+                    <h4>Services</h4>
+                </a></li>
+            <li><a href="">
+                    <h4>Order</h4>
+                </a></li>
+            <li><a href="">
+                    <h4>Menu</h4>
+                </a></li>
+            <li><a href="">
+                    <h4>About</h4>
+                </a></li>
+        </ul>
+        <div class="menu-logo">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div style="padding-left: 5%;padding-right: 5%;">
+        <div id="slider">
+            <figure>
+                <img src="photos/gadgets-1.jpg">
+                <img src="photos/gadgets-2.jpg">
+                <img src="photos/gadgets-3.jpg">
+                <img src="photos/gadgets-2.jpg">
+                <img src="photos/gadgets-1.jpg">
+            </figure>
+        </div>
+        <h1>Some Of Our Best Products</h1>
+        <div class="grid">
+            <section>
+                <img class='item' src='photos/airpod.jpg' alt="" />
+                <h3>Apple AirPods</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <section>
+                <img class='item' src='photos/iphone.jpg' alt="" />
+                <h3>Gold iPhone 11 Pro Max</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <section>
+                <img class='item' src='photos/nintendo.jpg' alt="" />
+                <h3>Nintendo Switch</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <section>
+                <img class='item' src='photos/poco.jpg' alt="" />
+                <h3>Poco Phone</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <section>
+                <img class='item' src='photos/watch.jpg' alt="watch" />
+                <h3>Samsung Galaxy smart watch</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <section>
+                <img class='item' src='photos/buds.jpg' alt="" />
+                <h3>Samsung Galaxy Buds</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+        </div>
+        <h1>Contact Us</h1>
+        <div class="contact">
+            <section id="one">
+                <h3>Feel free to contact us for any complaints or suggestions.</h3>
+                <br>
+                <h5>You can share your experiences too.</h5>
+            </section>
+            <section id="two">
+                <form action="">
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                    <br>
+                    <input type="email" placeholder="Email Address" id="email" required>
+                    <input type="tel" placeholder="Mobile Number" id="phone" required>
+                    <br>
+                    <input type="text" id="content" placeholder="Say something to us..." required>
+                    <br><br>
+                    <button type="submit" class="submitbtn">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
 </body>
+<footer>
+    <ul>
+        <li>
+            <a href="https://github.com/surbhigoel191">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/surbhigoel191">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:surbhigoel219@gmail.com">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
+</footer>
 
 </html>
